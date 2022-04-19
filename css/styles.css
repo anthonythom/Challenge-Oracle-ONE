@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D8DFE8;
+}
+
+
+.btn {
+    position: absolute;
+    left: 84px;
+    right: 0%;
+    top: 40px;
+    bottom: 0%;
+    width: 31.09px;
+    height: 48px;
+
+}
+
+.DivPai {
+    text-align: center;
+    position: absolute;
+    width: 350px;
+    height: 570px;
+    left: 900px;
+    top: 15px;
+    bottom: 0%;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+textarea {
+    position: absolute;
+    left: 240px;
+    top: 100px;
+    resize: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+
+
+}
+
+
+.imgRet {
+    margin-top: 100px;
+}
+
+h2 {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+.alert {
+
+    position: absolute;
+    top: 510px;
+    left: 220px;
+    font-size: 10px;
+    color: #495057;
+
+}
+
+.btns {
+    position: absolute;
+    top: 530px;
+    left: 200px;
+    border-radius: 24px;
+}
+
+.btn1 {
+    background-color: #0A3871;
+    border-radius: 30px;
+    width: 200px;
+    height: 30px;
+    padding: 24px;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    width: 280px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+
+}
+
+.btn1 input[type="Submit"] {
+    font-family: 'Inter', sans-serif;
+    width: 200px;
+    top: 24px;
+    left: 24px;
+    bottom: 24px;
+    right: 24px;
+    background-color: #0A3871;
+    color: white;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.btn2 {
+    background-color:#D8DFE8;
+    border-radius: 30px;
+    width: 200px;
+    height: 30px;
+    padding: 24px;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    width: 280px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0A3871;
+
+}
+.btn2 input[type="Submit"] {
+    font-family: 'Inter', sans-serif;
+
+   background-color:#D8DFE8 ;
+   color: #0A3871;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-family: Inter;
+    font-size: 18px;
+  
+    text-align: center;
+}

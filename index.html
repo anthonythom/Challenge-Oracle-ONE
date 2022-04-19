@@ -4,30 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css\styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Challenge-Oracle-ONE\js\CodDeCod.js" async></script>
     <title>Decodificador</title>
+
 </head>
 
 <body>
-    <div class="btn">
-        <img src="Vector.png" alt="">
-    </div>
-    <div class="DivPai">
-        <div class="imgRet">
+    <main>
 
+        <div class="btn">
+            <img src="img/Vector.png">
         </div>
-    </div>
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Digite seu texto" onclick="">
-
+        <div class="DivPai">
+            <div id="" class="imgRet">
+                <img src="img/boy.png" width="236" height="204">
+            </div>
+            <div class="h2">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <br>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </div>
+        <textarea id="textarea" name="textarea" rows="5" cols="16" placeholder="Digite seu texto"></textarea>
 
         <div class="alert">
-            <h1><img src="Vector1.png"> Apenas letras minúsculas e sem acento.</h1>
+            <h3><img src="img/Vector1.png"> Apenas letras minúsculas e sem acento.</h3>
         </div>
         <div class="btns">
-            <img src="Button.png"> <img src="Button(1).png">
+            <button  id="cripMensagem" class="btn1">
+                <input type="submit" value="Criptografar" onclick="function criptografarMensagem()">
+            </button>
+
+            <button id="descripMensagem" class="btn2">
+                <input type="submit" value="Descriptografar" onclick="function descripMensagem()"> </button>
         </div>
+    </main>
 </body>
 
 </html>
